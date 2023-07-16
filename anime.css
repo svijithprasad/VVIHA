@@ -91,7 +91,7 @@
   }
 
   .wrapper{
-    width: 410px;
+    width: 350px;
     height: 450px;
     padding: 60px;
   }
@@ -106,6 +106,7 @@
   .carousel img{
     width: 100%;
   }
+    
 }
 
 /* Bro vijith cards css is here */
