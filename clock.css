@@ -23,11 +23,11 @@
 @media only screen and (max-width: 900px){
     #clock{
         font-size: 20px;
-        margin: 100px 50px;
+        margin: 125px 50px;
         
     }
 
     .timeemoji{
-        margin: 97px 20px;
+        margin: 122px 25px;
     }
 }
