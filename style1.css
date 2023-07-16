@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Consolas";
+    box-sizing: border-box;
+}    
+body{
+  background-color:  #141414;
+  background-size: cover;
+    
+    
+
+}
+
+.hanime{
+  width: 100%;
+  height: 550px;
+  
+}
+
+.socials{
+  margin-left:  90px;
+  font-size: 2em;
+}
+
+.socials:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+.fancy {
+  background-color: transparent;
+  border: 2px solid #F3F3F3;
+  border-radius: 0;
+  box-sizing:border-box;
+  color:#F3F3F3;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 1em 1.5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 13px;
+  margin: 10px;
+  
+ }
+ 
+ .fancy::before {
+  content: " ";
+  width: 1.5625rem;
+  height: 2px;
+  background: #F3F3F3;
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform-origin: center;
+  transition: background 0.3s linear, width 0.3s linear;
+ }
+ 
+ .fancy .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#F3F3F3;
+ }
+ 
+ .fancy .top-key {
+  height: 2px;
+  width: 1.5625rem;
+  top: -2px;
+  left: 0.625rem;
+  position: absolute;
+  background:  #141414;
+  transition: width 0.5s ease-out, left 0.3s ease-out;
+ }
+ 
+ .fancy .bottom-key-1 {
+  height: 2px;
+  width: 1.5625rem;
+  right: 1.875rem;
+  bottom: -2px;
+  position: absolute;
+  background:  #141414;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+ }
+ 
+ .fancy .bottom-key-2 {
+  height: 2px;
+  width: 0.625rem;
+  right: 0.625rem;
+  bottom: -2px;
+  position: absolute;
+  background:  #141414;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+ }
+ 
+ .fancy:hover {
+  color:#F3F3F3;
+  background:  #141414;
+ }
+ 
+ .fancy:hover::before {
+  width: 0.9375rem;
+  background: #F3F3F3;
+ }
+ 
+ .fancy:hover .text {
+  color:#F3F3F3;
+  padding-left: 1.5em;
+ }
+ 
+ .fancy:hover .top-key {
+  left: -2px;
+  width: 0px;
+ }
+ 
+ .fancy:hover .bottom-key-1,
+  .fancy:hover .bottom-key-2 {
+  right: 0;
+  width: 0;
+ }
+
+  
+  .head{
+    padding: 50px;
+  }
+  
+  .to-fit {
+    margin: 0 auto;
+  }
+  
+  section .homepage{
+    padding: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+
+  .cardinfo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  section a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+  .title {
+    font-size: 15px;
+    color: #F3F3F3;
+    
+  }
+  
+  
+  
+  img{
+      width: 185px;
+      height: 275px;
+      
+  }
+
+
+  
+  .explore{
+    text-decoration: underline;
+  }
+  
+header{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+   background-color: transparent;
+    position: relative;
+    z-index: 900;
+
+}
+    section{
+    padding: 50px 50px;
+}
+
+.homecon{
+    
+    float: left;
+    color: #F3F3F3;
+    width: 1500px;
+    margin-top: 140px;
+    
+}
+
+.homevid{
+    
+   border: #F3F3F3;
+   border-style: solid;
+   display: flex;
+    
+
+}
+
+.exploring{
+  font-size: small;
+  color: #F3F3F3;
+  font-size: 2em;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  
+  
+}
+
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #F3F3F3;
+    font-size: 16px;
+    text-decoration: none;
+    border: #F3F3F3;
+    border-style: solid;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F3F3F3;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::before {
+    opacity: 1;
+  }
+  
+  .btn:hover {
+    color: #000;
+    transform: scale(1.1);
+    background-color: #F3F3F3;
+  }
+  
+
+
+.homepage video{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+.homepage{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.socials{
+  color:#F3F3F3;
+  float: left;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #F3F3F3;
+  margin-bottom: 0;
+  
+  }
+.bg{
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*so this part is logo's all animation and style*/
+.logo{
+    display: flex;
+    float: left;
+    padding: 0;
+    
+    
+}
+
+svg {
+    font-family: "consolas", sans-serif;
+    width: 100%; height: 100%;
+    }
+    svg text {
+    animation: stroke 4s infinite alternate;
+    stroke-width: 1;
+    stroke: #F3F3F3;
+    font-size: 70px;
+    cursor:default;
+    
+    }
+    @keyframes stroke {
+    0%   {
+      fill: rgba(255,255,255,0); stroke: rgba(255,255,255,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    }
+    70%  {fill: rgba(255,255,255,0); stroke: rgba(255,255,255,1); }
+    80%  {fill: rgba(255,255,255,0); stroke: rgba(255,255,255,1); stroke-width: 3; }
+    100% {
+      fill: rgba(255,255,255,1); stroke: rgba(255,255,255,0);
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+    }
+
+
+.hamburger{
+    display: none;
+    cursor: pointer; 
+     
+
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a{
+    font-weight: lighter;
+    display: block;
+    color:   #F3F3F3;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover{
+    color:#11101b;
+    background: #F3F3F3;
+}
+.nav-bar ul li a.active{
+color: #11101b;
+background: #F3F3F3;
+}
+
+
+/*game here*/
+.game{
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0%;
+  z-index: 1;
+  
+  
+}
+
+
+
+@media only screen and (max-width: 1320px){
+    
+  
+    header{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    header{
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 900px){
+      
+    svg text{
+      font-size: 50px;
+      
+
+    }
+    .logo{
+      
+    }
+   
+   
+  .card{
+      display: block;
+    }
+
+    .homecon{
+      margin-top: 20px;
+    }
+
+    .homevid{
+      flex-direction: column;
+      margin-top: 40px;
+    }
+      
+    .homepage{
+      flex-direction: column;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+    
+   
+   .socials{
+    margin: 20px;
+    position: absolute;
+    top: 600px;
+   }
+  
+   
+    
+    .hamburger{
+        display: block;
+        cursor: pointer;
+
+    }
+
+   
+    .hamburger .line {
+        width: 30px;
+        height: 4px;
+        background:#F3F3F3;
+        margin: 6px 0;
+        transition: 0.3s ease;
+    }
+   
+    .nav-bar{
+        z-index: 1000;
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: #000000;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.5s;
+        overflow: hidden;   
+    }
+    .nav-bar.active {
+        height: 450px;
+        z-index: 999;
+    }
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        
+    }
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+        
+    }
+       
+    
+        .hamburger.active .line:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .line:nth-child(1) {
+            transform: translateY(10px) rotate(40deg);
+        }
+    
+        .hamburger.active .line:nth-child(3) {
+            transform: translateY(-10px) rotate(-40deg);
+        }
+
+    }
+@media (max-width: 1040px){
+    section{
+        padding: 50px 20px;
+    }
+    .homepage .icons{
+        right: 15px;
+    }
+}
+
+@media (max-width: 767px){
+  .cardinfo{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+  }
+  
+}
+
+
+  
+
+
+        
+
+    

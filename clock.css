@@ -1,0 +1,33 @@
+
+*{
+    font-family: "Consolas";
+}
+#clock{
+    
+    position: absolute;
+    font-size: 1.2vw;
+    color: white;
+    margin-left: 86%;
+    
+    margin-top: 80px;
+    
+}
+
+.timeemoji{
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 84%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px){
+    #clock{
+        font-size: 20px;
+        margin: 100px 50px;
+        
+    }
+
+    .timeemoji{
+        margin: 97px 20px;
+    }
+}
