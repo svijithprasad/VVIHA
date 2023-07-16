@@ -412,7 +412,9 @@ background: #F3F3F3;
     }
 }
 @media only screen and (max-width: 900px){
-      
+    p{
+        font-size: 13px;
+    }
     svg text{
       font-size: 50px;
       
