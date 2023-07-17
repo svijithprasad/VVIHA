@@ -6,7 +6,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "Consolas";
+    font-family: "Consolas" Poppins;
     box-sizing: border-box;
 }    
 body{
